@@ -2,7 +2,8 @@
 SQLyog Ultimate v8.61 
 MySQL - 5.5.16 : Database - project
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -91,7 +92,7 @@ CREATE TABLE `usuario` (
 
 /*Data for the table `usuario` */
 
-insert  into `usuario`(`iduser`,`name`,`fname`,`lname`,`phone`,`street`,`num1`,`num2`,`col`,`mun`,`est`,`cp`,`cor`,`user`,`cont`,`lvl`,`estatus`) values (1,'Monica','mendez','gutierrez','7225859911','Camino Real',1,2,'',NULL,NULL,NULL,NULL,NULL,NULL,'2','1'),(2,'Daniel','martinez','rojas','7225859977','Veracruz',1,2,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2','1'),(3,'Jairo','Rojas','Martinez',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL),(4,'Bertin','Boilla','Rivas',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL),(5,'Juan','Bonifacio','Martinez',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL);
+insert  into `usuario`(`iduser`,`name`,`fname`,`lname`,`phone`,`street`,`num1`,`num2`,`col`,`mun`,`est`,`cp`,`cor`,`user`,`cont`,`lvl`,`estatus`) values (1,'Monica','mendez','gutierrez','','',1,2,'',NULL,NULL,NULL,NULL,NULL,NULL,'2','1'),(2,'Daniel','martinez','rojas','7225859977','Veracruz',1,2,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2','1'),(3,'Jairo','Rojas','Martinez',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL),(4,'Bertin','Boilla','Rivas',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL),(5,'Juan','Bonifacio','Martinez',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2',NULL);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
